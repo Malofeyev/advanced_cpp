@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdexcept>
 
 template <class T> class table {
 public:

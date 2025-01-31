@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
     std::vector<int> vals = { 4, 1, 3, 6, 25, 54 };
     auto counter = std::for_each(vals.begin(), vals.end(), Counter());
     std::cout << "get_sum()=" << counter.get_sum();
-    std::cout << "\nget_counter()=" << counter.get_count();
+    std::cout << "\nget_count()=" << counter.get_count();
 
     return 0;
 }
