@@ -15,11 +15,11 @@ public:
         }
     }
 
-    int get_sum() {
+    int get_sum() const {
         return sum;
     }
 
-    int get_count() {
+    int get_count() const {
         return count;
     }
 private:
